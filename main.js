@@ -88,8 +88,8 @@ client.on("guildMemberAdd", async (member) => {
         const eventtime2 = EventExecution.slice(0, -4);
 
         if (logtime === eventtime) {
-            if (executor.id === client.user.id) return console.log("[Action Type]: AUTHORISED")
-            if (executor.id === member.guild.owner.id) return console.log("[Action Type]: AUTHORISED")
+            if (executor.id === client.user.id) return console.log("ALLOWED")
+            if (executor.id === member.guild.owner.id) return console.log("ALLOWED")
             if (target.bot) {
                 member.guild.members.ban(executor.id, {
                     reason: `Nigga Was Adding Bot`
@@ -98,9 +98,9 @@ client.on("guildMemberAdd", async (member) => {
                 })).then(member.guild.members.ban(target.id, {
                     reason: "Nigga Was Adding Bot"
                 }).then(() => {
-                    console.log("[Trial]: True");
+                    console.log("TRYING");
                 })).catch((err) => {
-                    return console.log("[Trial]: False");
+                    return console.log("TRYING");
                 });
             }
         } else if (logtime2 === eventtime2) {
