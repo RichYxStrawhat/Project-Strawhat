@@ -5,6 +5,9 @@ width="100px"
 src="https://cdn.discordapp.com/attachments/863826091520294913/864017808744513576/Avatar-1.png"
 ></img>
 <h1>PROJECT STRAWHAT</h1><br>
+<h1>MADE BY RICHY</h1><br>
+  <img src="https://cdn.discordapp.com/attachments/855111395874832434/866376832798687242/richygif.gif">
+</p>
 </div>
 <b>Project Strawhat:</b><br />
 [$] THIS PROJECT IS UNDER DEVELOPMENT! <br />
